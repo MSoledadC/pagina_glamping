@@ -36,7 +36,37 @@ nav .menu {
   align-items: center;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0%;
+  display: inline-block;
+  color: #fbd856;
+}
 
+nav ul li {
+  display: inline-block;
+  margin: 0 0.5em;
+
+}
+
+nav ul li a {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fbd856;
+}
+
+nav .container .menu-btn {
+  display: none;
+}
+
+.social-media a {
+  font-size: 1em;
+}
+
+.nav-link {
+  font-weight: bold;
+}
 
 
 header {
@@ -98,14 +128,50 @@ header h1 {
 
 
 .accordion-item {
-  background: url(imagenes/img1.jpg) center no-repeat;
+  background: url(imagenes/g1.jpeg) center no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
+  height: 150px;
 }
 
+.accordion-item2 {
+  background: url(imagenes/g2.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
 
+.accordion-item3 {
+  background: url(imagenes/g3.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
 
+.accordion-item4 {
+  background: url(imagenes/g4.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+
+.accordion-item5 {
+  background: url(imagenes/g5.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+
+}
+
+.accordion-body-modal{
+  color: #000;
+  
+}
 .body_g {
 
   background: ##f1f1f1;
@@ -281,6 +347,54 @@ header h1 {
 
 .copyright-text {
   margin: 0
+}
+
+footer #subscribe {
+  margin: 20px 0px 30px;
+}
+
+input#subscriber-email {
+  outline: none;
+  padding: 8px;
+  background: #212121;
+  border: 1px solid #cecece;
+  color: #cecece;
+  border-radius: 4px 0px 0px 4px;
+}
+
+input#subscriber-email::-webkit-input-placeholder {
+  color: rgb(202, 196, 196);
+}
+
+input#subscriber-email:-ms-input-placeholder {
+  color: #cecece;
+}
+
+input#subscriber-email::-ms-input-placeholder {
+  color: #cecece;
+}
+
+input#subscriber-email::placeholder {
+  color: #cecece;
+}
+
+.col-3 {
+  display: inline-table;
+  width: 25%;
+}
+
+.col-3#newsletter {
+  width: 24%;
+}
+
+.col-3#newsletter #btn-scribe {
+  margin-left: -4px;
+  border: 1px solid #cecece;
+  border-radius: 0px 4px 4px 0;
+  padding: 8px 5px;
+  background-color: #e2e2e2;
+  color: #212121;
+  cursor: pointer;
 }
 
 @media (max-width:991px) {
@@ -858,7 +972,7 @@ p {
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image: url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+  background-image: url('imagenes/img1.jpg') ;
   background-size: cover;
   background-repeat: no-repeat;
 }
